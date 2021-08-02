@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 
 #Dataframe
-df = pd.read_csv('https://s3-student-datasets-bucket.whjr.online/whitehat-ds-datasets/penguin.csv')
+df = pd.read_csv('penguin.csv')
 df.head()
 df = df.dropna()
 
