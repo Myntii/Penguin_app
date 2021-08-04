@@ -10,7 +10,6 @@ from sklearn.ensemble import RandomForestClassifier
 
 #Dataframe
 df = pd.read_csv('penguin.csv')
-df.head()
 df = df.dropna()
 
 #Mapping
